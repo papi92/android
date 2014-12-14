@@ -4,6 +4,8 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com" />
+  <remote  name="n6"
+           fetch="https://github.com/N6-Dev-Team" />
 
   <remote  name="github"
            fetch=".."
@@ -52,16 +54,8 @@
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/google/atv" name="device/google/atv" groups="device,fugu" />
-  <project path="device/htc/flounder" name="device/htc/flounder" groups="device,flounder" />
-  <project path="device/htc/flounder-kernel" name="device/htc/flounder-kernel" groups="device,flounder" clone-depth="1" />
-  <project path="device/lge/hammerhead" name="device/lge/hammerhead" groups="device,hammerhead" />
-  <project path="device/lge/hammerhead-kernel" name="device/lge/hammerhead-kernel" groups="device,hammerhead" clone-depth="1" />
-  <project path="device/lge/mako" name="device/lge/mako" groups="device,mako" />
-  <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" clone-depth="1" />
-  <project path="device/moto/shamu" name="device/moto/shamu" groups="device,shamu" />
-  <project path="device/moto/shamu-kernel" name="device/moto/shamu-kernel" groups="device,shamu" clone-depth="1" />
+  <project path="device/moto/shamu" name="device/moto/shamu" remote="n6" revision="cm-12.0" />
   <project path="device/sample" name="device/sample" groups="pdk" />
-  <project path="device/samsung/manta" name="device/samsung/manta" groups="device,manta" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/android-clat" name="platform/external/android-clat" groups="pdk-cw-fs" />
@@ -371,6 +365,7 @@
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3" />
   <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" />
   <project path="hardware/ti/omap4xxx" name="AndroidOpenDevelopment/android_hardware_ti_omap4xxx" groups="omap4" remote="github" revision="lp" />
+  <project path="kernel/moto/shamu" name="android_kernel_moto_shamu" remote="n6" revision="cm-12.0" />
   <project path="libcore" name="platform/libcore" groups="pdk" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="ndk" name="platform/ndk" />
@@ -524,6 +519,7 @@
   <!-- AOD specifis -->
   <project path="android" name="AndroidOpenDevelopment/android" remote="github" revision="lp" />
   <project path="vendor/aod" name="AndroidOpenDevelopment/android_vendor_aod" remote="github" revision="lp" />
+  <project path="vendor/moto" name="android_vendor_moto" remote="n6" revision="cm-12.0" />
 
   <!-- Optional tools -->
   <project path="external/busybox" name="AndroidOpenDevelopment/android_external_busybox" remote="github" revision="lp" />
