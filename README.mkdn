@@ -36,7 +36,7 @@ familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 
 To initialize your local repository using the AndroidOpenDevelopment trees, use a command like this:
 
-    repo init -u git://github.com/AndroidOpenDevelopment/android.git -b lp
+    repo init -u git://github.com/papi92/android.git -b lp
 
 Then to sync up:
 
