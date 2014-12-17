@@ -358,7 +358,7 @@
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3" />
   <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" />
   <project path="hardware/ti/omap4xxx" name="AndroidOpenDevelopment/android_hardware_ti_omap4xxx" groups="omap4" remote="github" revision="lp" />
-  <project path="kernel/motorola/shamu" name="android_kernel_moto_shamu" remote="n6" revision="cm-12.0" />
+  <project path="kernel/motorola/shamu" name="android_kernel_motorola_shamu" remote="n6" revision="cm-12.0" />
   <project path="libcore" name="platform/libcore" groups="pdk" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="ndk" name="platform/ndk" />
